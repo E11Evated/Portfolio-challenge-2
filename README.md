@@ -29,6 +29,6 @@ https://www.youtube.com/watch?v=Hskt1jN7JTc&t=317s
 Icons
 https://ionic.io/ionicons - free opensource simple icons.
 
-![Photo of my home page]("C:\Users\johns\Downloads\_C__Users_johns_desktop_bootcamp_myPortfolio_index.html.png")
+![Wireframe_home_page](https://user-images.githubusercontent.com/78288765/202637733-90e65375-ed37-4213-b8f0-8391bf067c6b.png)
 
 
