@@ -8,20 +8,21 @@
     <title>John Schoppmann Portfolio</title>
 </head>
 <body>
+  <!--Navagtion bar on the right side and my name on the left side.-->
     <div class="header">
           <a class="logo">John Schoppmann</a>
         <div class="header-right">
-          <a class="active" href="#home">Home</a>
-          <a href="#contact">Contact</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#movies">Movies</a>
-          <a href="#about">About</a>
+          <a class="active" href="index.html">Home</a>
+          <a href="assets/contact.html">Contact</a>
+          <a href="./assets/portfolio.html">Portfolio</a>
+          <a href="assets/movies.html">Movies</a>
+          <a href="assets/about.html">About</a>
         </div>
       </div>
-     <!--  -->
+     <!-- Body headline with button to link to contact page -->
      <div class="content">
         <h1>Are You Looking For A Full Stack Developer?</h1>
-        <a href="#">Hire ME!</a>
+        <a href="assets/contact.html">Hire ME!</a>
      </div> 
 
     <div class="hero">
@@ -29,26 +30,33 @@
             <source src="assets\CampFire.mp4" type="video/mp4">
         </video>
     </div>
-<!-- *Change color to span text* -->
+<!-- Added box imagaes to the left a right side of the page to link to my tabs like the navagation bar. -->
   <div class="parent">
     <div class="container">
         <div class="box">
+         <a  href="assets/contact.html">
           <img src="https://source.unsplash.com/1000x800">
+        </a>
           <span>Contact</span>
         </div>
         <div class="box">
+         <a href="assets/portfolio.html">
           <img src="https://source.unsplash.com/1000x802">
+        </a>
           <span>Portfolio</span>
         </div>
     </div>
-<!--  -->
     <div class="container">    
         <div class="box">
+          <a href="assets/movies.html">
           <img src="https://source.unsplash.com/1000x804">
+        </a>
           <span>Movie</span>
         </div>
         <div class="box">
+          <a href="assets/about.html">
           <img src="https://source.unsplash.com/1000x806">
+        </a>
           <span>About</span>
         </div>
     </div> 
@@ -68,6 +76,7 @@
        <ion-icon name="logo-discord"></ion-icon>
    </a>
 </div>
+<!--script for icons-->
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
